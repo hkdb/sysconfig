@@ -1,0 +1,147 @@
+{
+    "child": {
+        "child1": {
+            "child1": {
+                "directory": "\/home\/hkdb",
+                "height": 336,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "6096af58-99b4-475f-a983-1872a088445d",
+                "width": 628
+            },
+            "child2": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 340,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "ea0c294d-8090-4ca6-b616-253b06c81202",
+                    "width": 628
+                },
+                "child2": {
+                    "directory": "\/home\/hkdb",
+                    "height": 327,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "1bf72881-4377-411d-a399-4bd533a89254",
+                    "width": 628
+                },
+                "orientation": 1,
+                "position": 33,
+                "ratio": 0.505952380952380931,
+                "type": "Paned"
+            },
+            "orientation": 1,
+            "position": 33,
+            "ratio": 0.331688055281342542,
+            "type": "Paned"
+        },
+        "child2": {
+            "child1": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 337,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "07437c5a-af2a-42d5-9474-cab3dcff1ddb",
+                    "width": 643
+                },
+                "child2": {
+                    "child1": {
+                        "directory": "\/home\/hkdb",
+                        "height": 339,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "6787f5a6-a037-493b-be7a-349c52acfe92",
+                        "width": 643
+                    },
+                    "child2": {
+                        "directory": "\/home\/hkdb",
+                        "height": 327,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "ca8404dd-ae6f-4d08-aca4-5e84f2fd58a7",
+                        "width": 643
+                    },
+                    "orientation": 1,
+                    "position": 33,
+                    "ratio": 0.505216095380029762,
+                    "type": "Paned"
+                },
+                "orientation": 1,
+                "position": 33,
+                "ratio": 0.332675222112537028,
+                "type": "Paned"
+            },
+            "child2": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 337,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "97b747d3-2f78-418e-9c6b-3e192a4fb663",
+                    "width": 639
+                },
+                "child2": {
+                    "child1": {
+                        "directory": "\/home\/hkdb",
+                        "height": 338,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "e4330650-626d-43ef-88ea-e39ee0862f90",
+                        "width": 639
+                    },
+                    "child2": {
+                        "directory": "\/home\/hkdb",
+                        "height": 328,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "0fa57160-113e-495d-a96a-30729c5a034a",
+                        "width": 639
+                    },
+                    "orientation": 1,
+                    "position": 33,
+                    "ratio": 0.503725782414306988,
+                    "type": "Paned"
+                },
+                "orientation": 1,
+                "position": 33,
+                "ratio": 0.332675222112537028,
+                "type": "Paned"
+            },
+            "orientation": 0,
+            "position": 33,
+            "ratio": 0.499611499611499588,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 32,
+        "ratio": 0.327083333333333337,
+        "type": "Paned"
+    },
+    "height": 1013,
+    "name": "Default",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "8869b776-7cf9-4745-92b3-df4ab9b543a1",
+    "version": "1.0",
+    "width": 1920
+}

@@ -1,0 +1,28 @@
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+# set GO bin PATH
+if [ -d "$HOME/go/bin" ] ; then
+    PATH="$HOME/go/bin:$PATH"
+fi
+
+# set Flutter PATH
+if [ -d "$HOME/Development/flutter/bin" ] ; then
+    PATH="$HOME/Development/flutter/bin:$PATH"
+fi
+
+# set Conda Path
+if [ -d "$HOME/Development/miniconda3/bin" ] ; then
+    PATH="$HOME/Development/miniconda3/bin:$PATH"
+fi
+
+export DEBFULLNAME="hkdb"
+export DEBEMAIL="hkdb@3df.io"
+

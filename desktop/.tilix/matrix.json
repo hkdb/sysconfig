@@ -1,0 +1,139 @@
+{
+    "child": {
+        "child1": {
+            "child1": {
+                "directory": "\/home\/hkdb",
+                "height": 383,
+		"profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "1179595b-5fd3-4c96-a07a-9f3a74160e5b",
+                "width": 648,
+		"overrideCommand": "/home/hkdb/.tilix/ls.sh"
+            },
+            "child2": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 383,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "0992cbda-43b9-49a6-9c7e-121d68efdf7b",
+                    "width": 648,
+		    "overrideCommand": "/home/hkdb/.tilix/psax.sh"
+                },
+                "child2": {
+                    "directory": "\/home\/hkdb",
+                    "height": 237,
+		    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "2eba9b59-0c57-4d3b-9a96-23b6d88d7825",
+                    "width": 648,
+		    "overrideCommand": "/home/hkdb/.tilix/df.sh"
+                },
+                "orientation": 1,
+                "position": 37,
+                "ratio": 0.612800000000000011,
+                "type": "Paned"
+            },
+            "orientation": 1,
+            "position": 37,
+            "ratio": 0.378084896347482713,
+            "type": "Paned"
+        },
+        "child2": {
+            "child1": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 383,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "1161d24c-ba57-418e-a5c4-fba7defcbf6d",
+                    "width": 670,
+		    "overrideCommand": "/home/hkdb/.tilix/ll.sh"
+                },
+                "child2": {
+                    "child1": {
+                        "directory": "\/home\/hkdb",
+                        "height": 383,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "f73c872f-ff71-4a92-9308-f121d73e9a88",
+                        "width": 670,
+			"overrideCommand": "/home/hkdb/.tilix/ifconfig.sh"
+                    },
+                    "child2": {
+                        "directory": "\/home\/hkdb",
+                        "height": 237,
+                        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                        "readOnly": false,
+                        "synchronizedInput": true,
+                        "type": "Terminal",
+                        "uuid": "806e98fe-9ed0-485f-9d57-ab83c5ae87de",
+                        "width": 670,
+			"overrideCommand": "/home/hkdb/.tilix/netstat.sh"
+                    },
+                    "orientation": 1,
+                    "position": 37,
+                    "ratio": 0.612800000000000011,
+                    "type": "Paned"
+                },
+                "orientation": 1,
+                "position": 37,
+                "ratio": 0.378084896347482713,
+                "type": "Paned"
+            },
+            "child2": {
+                "child1": {
+                    "directory": "\/home\/hkdb",
+                    "height": 382,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "2647eecc-2fb2-4402-8fc2-c7e0dc45b7ce",
+                    "width": 592,
+		    "overrideCommand": "/home/hkdb/.tilix/journalctl.sh"
+                },
+                "child2": {
+                    "directory": "\/home\/hkdb",
+                    "height": 626,
+                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                    "readOnly": false,
+                    "synchronizedInput": true,
+                    "type": "Terminal",
+                    "uuid": "7d47a87d-e1b1-42d6-bd68-43abbb3d7bb6",
+                    "width": 592,
+		    "overrideCommand": "/home/hkdb/.tilix/top.sh"
+                },
+                "orientation": 1,
+                "position": 37,
+                "ratio": 0.377097729516288227,
+                "type": "Paned"
+            },
+            "orientation": 0,
+            "position": 34,
+            "ratio": 0.528808208366219445,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 33,
+        "ratio": 0.337500000000000022,
+        "type": "Paned"
+    },
+    "height": 1013,
+    "name": "Default",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "5bc193b6-e7f8-4265-92e3-7d5d008086fe",
+    "version": "1.0",
+    "width": 1920
+}`
