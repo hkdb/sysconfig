@@ -5,7 +5,7 @@ maintained by: hkdb `<hkdb@3df.io>`
 
 ### SUMMARY
 
-This repo automates the setup and rollback of some of my must have shell and vim configurations on servers and desktops. This is a sansitized version of my private repo to serve as a template for others in case it's useful.
+This repo automates the setup and rollback of some of my must have shell and vim configurations on servers and desktops. This is a redacted version of my private repo to serve as a template for others in case it's useful.
 
 ### DETAILS
 
