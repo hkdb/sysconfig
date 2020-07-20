@@ -1,4 +1,4 @@
-# System System Configurations
+# Automated System Configurations
 maintained by: hkdb `<hkdb@3df.io>`
 
 ![sysconfig-ss.png](sysconfig-ss.png)
