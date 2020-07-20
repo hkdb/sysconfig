@@ -8,9 +8,10 @@ rm ~/.bash_aliases
 if [ -f ~/.bash_aliases.old ]; then
     mv ~/.bash_aliases.old ~/.bash_aliases
 fi
+rm -rf ~/.config/powerline
 
 echo ""
-echo "Removing VIM Config...
+echo "Removing VIM Config..."
 rm ~/.vimrc
 rm ~/.vim
 rm ~/.viminfo
