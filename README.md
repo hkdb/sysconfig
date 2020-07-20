@@ -53,6 +53,9 @@ To Uninstall Either:
 cd sysconfig/
 ./uninstall.sh
 ```
+### DEMO
+
+[![asciicast](https://asciinema.org/a/WbyPfyLxKfvrSezNpsMUjFwgr.svg)](https://asciinema.org/a/WbyPfyLxKfvrSezNpsMUjFwgr)
 
 ### CHANGES
 
