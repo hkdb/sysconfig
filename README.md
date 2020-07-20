@@ -9,11 +9,11 @@ This repo automates the setup and rollback of some of my must have shell and vim
 
 ### DETAILS
 
-The install script determines the OS automatically and installs the following:
-   - powerline (to beautify your terminal with my custom colors)
+The install scripts determine the OS automatically and installs the following:
+   - powerline (to beautify your terminal with custom colors)
    - vim configurations (monokai theme, line numbers, nerdtree, Go/Python plugins, custom shortcuts, etc)
    - mdv (a small python program that lets you preview markdown files in the terminal)
-   - tilix (a terminal emulator with custom defined layout) - DESKTOP ONLY
+   - tilix (a terminal emulator with custom predefined layouts) - DESKTOP ONLY
    - custom bash aliases
 
 ### OS SUPPORT
@@ -44,15 +44,19 @@ cd sysconfig/server
 ./install.sh
 # Exit and Re-Login
 ```
+
 `Note 1:` If you get any errors for no such files, it's ok. I just didn't put in if statements to check if the files exists or not. 
 
 `Note 2:` You may need to do a PlugInstall in vim after this script installs. 
 
-To Uninstall Either:
+To Uninstall Either Desktop or Server:
 ```
 cd sysconfig/
 ./uninstall.sh
 ```
+
+`Note:` uninstall.sh shreds .bash_aliases before removing the file.
+
 ### DEMO
 
 [![asciicast](https://asciinema.org/a/WbyPfyLxKfvrSezNpsMUjFwgr.svg)](https://asciinema.org/a/WbyPfyLxKfvrSezNpsMUjFwgr)
