@@ -55,7 +55,7 @@ cd sysconfig/
 ./uninstall.sh
 ```
 
-`Note:` uninstall.sh shreds .bash_aliases before removing the file.
+`Note:` uninstall.sh shreds .bash_aliases before removing the file except for Mac.
 
 ### DEMO
 

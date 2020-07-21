@@ -80,6 +80,7 @@ fi
 alias ll='ls -lah'
 alias la='ls -A'
 alias l='ls -CF'
+alias vim='/usr/local/bin/vim'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -95,13 +96,9 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # Source .profile
-if [ -f ~/.profile ]; then
-    . ~/.profile
+if [ -f ~/.bash_path ]; then
+    . ~/.bash_path
 fi
-
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then 
-	source /etc/profile.d/vte.sh 
-fi # Ubuntu Budgie END
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
@@ -110,5 +107,5 @@ if [ -f `which powerline-daemon` ]; then
   powerline-daemon -q
   POWERLINE_BASH_CONTINUATION=1
   POWERLINE_BASH_SELECT=1
-  . /usr/share/powerline/bindings/bash/powerline.sh
+  . /usr/local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 fi

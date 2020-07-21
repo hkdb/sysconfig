@@ -53,15 +53,21 @@ echo ""
 echo "Configuring Bash..."
 mv ~/.bashrc ~/.bashrc.old
 ln -s $(pwd)/${dir}/.bashrc ~/.
-mv ~/.profile ~/.profile.old
-ln -s $(pwd)/${dir}/.profile ~/.
+ln -s $(pwd)/${dir}/.bash_path ~/.
 mv ~/.bash_aliases ~/.bash_aliases.old
 ln -s $(pwd)/.bash_aliases ~/.
+ln -s $(pwd)/powerline ~/.config/.
+
+if [ ! -f ~/.profile ]; then
+   ln -s $(pwd)/macos/.profile ~/.
+fi	
 
 # Tilix
-echo ""
-echo "Configuring Tilix..."
-ln -s $(pwd)/.tilix ~/.
+if [ $OSTYPE == "linux-gnu" ]; then
+   echo ""
+   echo "Configuring Tilix..."
+   ln -s $(pwd)/.tilix ~/.
+fi
 
 # Vim
 echo ""

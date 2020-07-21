@@ -28,6 +28,12 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 		dir="redhat"
 	fi
         echo "${bold}Distro:${normal} ${distro}"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+        echo "${bold}OS:${normal} MacOS"
+        echo ""
+        distro=$(sw_vers -productVersion)
+        echo "${bold}Version:${normal} ${distro}"
+        dir="macos"
 else
 	echo "Operating System not supported. Exiting..."
 	exit 0
@@ -48,7 +54,11 @@ ln -s $(pwd)/${dir}/.bashrc ~/.
 ln -s $(pwd)/${dir}/.bash_path ~/.
 mv ~/.bash_aliases ~/.bash_aliases.old
 ln -s $(pwd)/.bash_aliases ~/.
-ln -s $(pwd)/powerline ~/.config/
+ln -s $(pwd)/powerline ~/.config/.
+
+if [ ! -f ~/.profile ]; then
+   ln -s $(pwd)/macos/.profile ~/.
+fi   
 
 # Vim
 echo ""
