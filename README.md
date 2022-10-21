@@ -15,6 +15,7 @@ The install scripts determine the OS automatically and installs the following:
    - mdv (a small python program that lets you preview markdown files in the terminal)
    - tilix (a terminal emulator with custom predefined layouts) - DESKTOP ONLY
    - custom bash aliases
+   - [zellij](https://zellij.dev/) 
 
 ### OS SUPPORT
 
@@ -47,7 +48,7 @@ cd sysconfig/server
 
 `Note 1:` If you get any errors for no such files, it's ok. I just didn't put in if statements to check if the files exists or not. 
 
-`Note 2:` You may need to do a PlugInstall in vim after this script installs. 
+`Note 2:` You may need to do a `PlugInstall` and/or `PlugUpdate` in vim after this script installs. 
 
 To Uninstall Either Desktop or Server:
 ```
@@ -71,6 +72,11 @@ Making your own changes will require you to freeze your vim plugins unless you w
 ### EXISTING FILES
 
 This script does not overwrite existing files on your system but rather moves anything that's existing to `<file name>.old`
+
+### CHANGELOG
+
+- 07212020 - Initial commit
+- 10202020 - Added zellij & updated aliases
 
 ### DISCLAIMER
 

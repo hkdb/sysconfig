@@ -33,6 +33,10 @@ rm ~/.config/powerline
 mv ~/.bashrc.old ~/.bashrc
 
 echo ""
+echo "Removing Zellij..."
+rm -rf ~/.local/bin/zellij
+
+echo ""
 echo "Removing Parent Directory..."
 cd ..
 rm -rf sysconfig

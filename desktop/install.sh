@@ -29,13 +29,15 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	elif [[ $distro == "Fedora"* ]]; then
 		dir="fedora"
 	fi
-        echo "${bold}Distro:${normal} ${distro}"
+   echo "${bold}Distro:${normal} ${distro}"
+   zellij_link="https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo "${bold}OS:${normal} MacOS"
 	echo ""
 	distro=$(sw_vers -productVersion)
 	echo "${bold}Version:${normal} ${distro}"
 	dir="macos"
+   zellij_link="https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-apple-darwin.tar.gz"
 else
 	echo "Unsupported Operation System... Exiting..."
 	exit 0
@@ -76,6 +78,16 @@ mv ~/.vim ~/.vim.old
 ln -s $(pwd)/.vim ~/.
 mv ~/.vimrc ~/.vimrc.old
 ln -s $(pwd)/.vimrc ~/.
+
+# Zellij
+echo ""
+echo "Downloading and Installing Zellij..."
+wget $zellij_link
+tar -xzvf zellij*.tar.gz
+if [ ! -d "$HOME/.local/bin" ]; then
+   mkdir -p $HOME/.local/bin
+fi
+mv zellij $HOME/.local/bin/
 
 echo ""
 echo "---------------------------"
