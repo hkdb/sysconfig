@@ -90,12 +90,12 @@ fi
 mv zellij $HOME/.local/bin/
 mkdir -p ~/.config/zellij
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-   $HOME/.local/bin/zellij setup --dump-config > ~/.config/zellij/config.yaml
-   sed -i 's/#copy_command: "xclip/copy_command: "xclip/' ~/.config/zellij/config.yaml
+   $HOME/.local/bin/zellij setup --dump-config > ~/.config/zellij/config.kdl
+   sed -i 's/\/\/copy_command: "xclip/copy_command: "xclip/' ~/.config/zellij/config.kdl
 fi
 if [[ "$OSTYPE" == "darwin"* ]]; then
-   $HOME/.local/bin/zellij setup --dump-config > ~/Library/Application Support/org.Zellij-Contributors.Zellij/config.yaml
-   sed -i 's/#copy_command: "xclip/copy_command: "pbcopy/' ~/Library/Application Support/org.Zellij-Contributors.Zellij/config.yaml
+   $HOME/.local/bin/zellij setup --dump-config > ~/Library/Application Support/org.Zellij-Contributors.Zellij/config.kdl
+   sed -i 's/\/\/copy_command: "xclip/copy_command: "pbcopy/' ~/Library/Application Support/org.Zellij-Contributors.Zellij/config.kdl
 fi
 
 echo ""

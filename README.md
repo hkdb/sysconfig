@@ -75,8 +75,9 @@ This script does not overwrite existing files on your system but rather moves an
 
 ### CHANGELOG
 
-- 10212020 - Added zellij config & dep for server  
-- 10202020 - Added zellij & updated aliases
+- 10252022 - Updated install script to kdl instead yaml
+- 10212022 - Added zellij config & dep for server  
+- 10202022 - Added zellij & updated aliases
 - 07212020 - Initial commit
 
 ### DISCLAIMER
