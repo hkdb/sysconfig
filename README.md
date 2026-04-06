@@ -1,9 +1,11 @@
 # Automated System Configurations
 maintained by: hkdb `<hkdb@3df.io>`
 
+---
 
 ### This is the original sysconfig that is no longer maintained but should still work for older systems.
 
+---
 
 ![sysconfig-ss.png](sysconfig-ss.png)
 
