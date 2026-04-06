@@ -3,7 +3,7 @@ maintained by: hkdb `<hkdb@3df.io>`
 
 ---
 
-### This is the original sysconfig that is no longer maintained but should still work for older systems.
+### This is the original sysconfig that is no longer maintained and is likely broken.
 
 ---
 
@@ -34,6 +34,8 @@ This script current supports the following OS's:
    - MacOS High Sierra + - <b>WIP</b>
 
 ### USAGE
+
+**Note:** I have removed the `.vim` dir as it contianed a vulnerable python library in multiple plugins which will likely break the script.
 
 Desktop Installation:
 
